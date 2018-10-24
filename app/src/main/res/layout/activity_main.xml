@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="cn.gdcp.alertdialogdemo.MainActivity">
+
+    <Button
+        android:id="@+id/alert_dialog_1"
+        android:text="普通复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_2"
+        android:text="列表复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_3"
+        android:text="单选复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_4"
+        android:text="多选复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_5"
+        android:text="进度条复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_6"
+        android:text="编辑复选框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/alert_dialog_7"
+        android:text="自定义编辑框"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
